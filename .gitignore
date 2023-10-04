@@ -1,0 +1,48 @@
+# .gitignore # Project files and directories 
+/pnr_enq/local_settings.py 
+/pnr_enq/static/ 
+/pnr_enq/tmp/ 
+/pnr_enq/media/ 
+/env
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+
+# Byte-compiled 
+/ 
+DLL files __pycache__/ 
+*.py[cod] 
+*$py.class 
+
+
+# C extensions 
+*.so 
+
+
+# PyInstaller 
+*.manifest 
+*.spec 
+
+
+# Installer logs 
+pip-log.txt 
+pip-delete-this-directory.txt 
+
+# Unit test ...
+
+
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
+
+/enquiry/
